@@ -1,0 +1,27 @@
+Converting GML script : ${project_dir}\scripts\view_follow\view_follow.gml
+Converted builtin : line 27 : view_xview = (x1 + x2) / 2 - view_wview / 2 -> __view_set( e__VW.XView, 0, (x1 + x2) / 2 - view_wview / 2 )
+Converted builtin : line 28 : view_yview = (y1 + y2) / 2 - view_hview / 2 -> __view_set( e__VW.YView, 0, (y1 + y2) / 2 - view_hview / 2 )
+Converted builtin : line 25 : view_wview = vm * vw -> __view_set( e__VW.WView, 0, vm * vw )
+Converted builtin : line 26 : view_hview = vm * vh -> __view_set( e__VW.HView, 0, vm * vh )
+Converted builtin : line 22 : view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin : line 23 : view_hport -> __view_get( e__VW.HPort, 0 )
+Converted description : /// @description  view_follow(object, padding)/// @function  view_follow
+/// @param object
+/// @param  padding
+Converted builtin : line 30 : view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin : line 31 : view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script : ${project_dir}\objects\o_control\Draw_0.gml
+Converted builtin : line 2 : view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin : line 2 : view_hport -> __view_get( e__VW.HPort, 0 )
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit.
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2.
+game speed set to 30
+added compatibility script d3d/d3d_set_projection_ortho.gml
+added compatibility script view/__view_get.gml
+added compatibility script view/__view_set.gml
+added compatibility script view/__view_set_internal.gml
+added compatibility script d3d/__init_d3d.gml
+added compatibility script view/__init_view.gml
+added compatibility script __init_global.gml
