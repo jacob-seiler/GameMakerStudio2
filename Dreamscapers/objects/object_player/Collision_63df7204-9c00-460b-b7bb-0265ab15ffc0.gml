@@ -1,0 +1,3 @@
+/// @description Interact
+
+interact = other;
