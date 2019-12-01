@@ -1,0 +1,1 @@
+move(move_speed, dir_x, dir_y);
