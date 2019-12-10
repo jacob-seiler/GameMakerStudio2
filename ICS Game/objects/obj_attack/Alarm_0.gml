@@ -1,0 +1,1 @@
+instance_destroy(); // TODO maybe destroy animation or something idk

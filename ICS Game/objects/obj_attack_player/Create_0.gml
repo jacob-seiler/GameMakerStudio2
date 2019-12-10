@@ -1,0 +1,1 @@
+alreadyHit[0] = noone;

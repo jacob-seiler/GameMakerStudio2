@@ -1,0 +1,1 @@
+show_debug_message("damage them STRONG! (jk dont because it should only damage the enemies)");

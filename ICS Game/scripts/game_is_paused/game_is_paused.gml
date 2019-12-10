@@ -1,0 +1,1 @@
+return obj_settings.paused;
